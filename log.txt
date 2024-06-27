@@ -1,0 +1,9 @@
+#ubuntu:latest
+winpty docker run -it ubuntu:latest bash
+sudo apt update -y
+
+
+#mariaDB
+
+FROM mariadb:10.5
+winpty docker run -it mariadb:10.5 bash
